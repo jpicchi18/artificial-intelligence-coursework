@@ -1,0 +1,53 @@
+Name: Joseph Picchi
+UID: 605124511
+
+===========================
+CS 161 HOMEWORK 4 (hw4.txt)
+===========================
+
+The SAT instance derived from 3-coloring of graph 1 is UNSATISFIABLE.
+
+The SAT instance derived from 4-coloring of graph 1 is SATISFIABLE.
+
+The above 2 SAT instances tell us that graph 1 can be 4-colored, but it cannot be
+3-colored. In other words, there are too many constraints between the variables to
+assign 1 of 3 colors to every variable in such a way that no 2 adjacent variables
+have the same color, but we are able to accomplish the task of assigning 1 of 4 colors
+to every node in such a way that no 2 adjacent nodes have the same color.
+
+Can you give a solution (a coloring) to the graph coloring problem of the above graph
+based on the results of RSat?
+
+      Running RSAT on the SAT instance corresponding to 4-coloring graph 1 gives this
+      line:
+	v -1 -2 -3 4 -5 -6 7 -8 -9 10 -11 -12 -13 -14 15 -16 17 -18 -19 -20 -21
+	  22 -23 -24 25 -26 -27 -28 0
+
+      The affirmative propositional variable corresponding to each variable is given
+      by:
+		variable --> affirmative propositional variable
+		       1 --> 4
+		       2 --> 7
+		       3 --> 10
+		       4 --> 15
+		       5 --> 17
+		       6 --> 22
+		       7 --> 25
+
+       We convert each affirmative propositional variable index into the corresponding
+       variable colorings using the equation:
+       		coloring = prop_var_index - (var_index - 1) * k
+
+       Apply the above equation to the results in the table above gives the following
+       coloring solution:
+
+       		variable --> color
+		       1 --> 4
+		       2 --> 3
+		       3 --> 2
+		       4 --> 3
+		       5 --> 1
+		       6 --> 2
+		       7 --> 1
+
+The minimum number of colors to properly color graph 2 is: 8
