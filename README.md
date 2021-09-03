@@ -1,6 +1,6 @@
 # artificial-intelligence-coursework
 - class projects for the UCLA course "Artificial Intelligence".
-- [homework_1](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_1): Lisp operations with numeric sequences and trees
+- [homework_1](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_1): Lisp operations on numeric sequences and trees
   - padovan number generator
   - efficiency anaylzer for padovan number generator
   - tree anonymizer
