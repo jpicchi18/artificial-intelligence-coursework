@@ -1,2 +1,21 @@
 # artificial-intelligence-coursework
-class projects for the UCLA Com Sci course entitled "Artificial Intelligence"
+- class projects for the UCLA course "Artificial Intelligence".
+- [homework_1](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_1): Lisp operations with numeric sequences and trees
+  - padovan number generator
+  - efficiency anaylzer for padovan number generator
+  - tree anonymizer
+- [homework_2](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_2): river traveler problem solver
+  - performs depth-limited search of a solution space and returns the optimal solution
+- [homework_3](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_3): Sokoban puzzle solver
+  - generates game states in a depth-first fashion until it finds a solution to the puzzle
+  - uses A* search with sokoban-specific heuristics to improve search efficiency
+- [homework_4](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_4): graph coloring to SAT problem converter
+  - converts a graph coloring problem into an equivalent SAT problem
+  - SAT problem is formatted to be inputted into a [SAT solver](http://reasoning.cs.ucla.edu/rsat/)
+- [homework_5](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_5): Propositional Logic Exercises
+  - analyzing validity, unsatisfiability, and tautologies
+  - propositional logic knowledge bases, conjunctive normal form, and the resolution rule
+  - bayesian inference
+- [homework_6](https://github.com/jpicchi18/artificial-intelligence-coursework/tree/main/homework_6): Bayesian inference exercises
+  - bayesian networks & the chain rule for bayesian networks
+  - conditional probabilities, markovian asumptions (topological semantics), markov blankets
